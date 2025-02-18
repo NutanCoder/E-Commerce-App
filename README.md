@@ -1,50 +1,72 @@
-# React + TypeScript + Vite
+# E-Commerce-App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the **E-Commerce App**! This is a simple and responsive e-commerce web application built with modern frontend technologies.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
+[Click here to view the live project](https://nutan-ecommerce-app.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+1. User-friendly UI/UX
+2. Responsive design for all devices
+3. Product listing with details
+4. Add to cart functionality
+5. Smooth navigation
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
+1. **Frontend:** React.js, TypeScript, Redux
+2. **UI Styling:** Tailwind CSS, Bootstrap
+3. **State Management:** Redux Toolkit
+4. **Deployment:** Netlify
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 📌 Installation & Setup
+Follow these steps to run the project locally:
 
-- Configure the top-level `parserOptions` property like this:
+1. **Clone the Repository:**
+   ```sh
+   git clone https://github.com/your-username/ecommerce-app.git
+   cd ecommerce-app
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+2. **Install Dependencies:**
+   npm install
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+3.**Run the Application:**
+  npm start
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## 📷 Screenshot 
+Home Page (C:\Users\hp\OneDrive\Pictures\Screenshots\Screenshot 2025-02-18 110603.png)
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## 📌 Folder Structure
+/ecommerce-app
+
+├── public
+
+├── src
+
+│   ├── components  # Reusable components
+
+│   ├── pages       # Pages like Home, Cart, Product Details
+
+│   ├── store       # Redux store setup
+
+│   ├── styles      # Global styles
+
+│   ├── App.tsx     # Main App component
+
+│   ├── main.tsx    # Entry point
+
+├── .gitignore
+
+├── package.json
+
+├── README.md
+
+## 💡 Future Enhancements
+1.Authentication & User Login
+2.Payment Integration
+3.Wishlist Feature
+4.Backend API Integration
+
+## 🤝 Contributing
+Contributions are welcome! Feel free to fork the repo and submit a pull request.
+
+Made with ❤️ by Nutan
