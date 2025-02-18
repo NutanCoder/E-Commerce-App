@@ -27,13 +27,15 @@ Follow these steps to run the project locally:
    cd ecommerce-app
 
 2. **Install Dependencies:**
+   ```sh
    npm install
 
-3.**Run the Application:**
-  npm start
+3. **Run the Application:**
+   ```sh
+   npm start
 
 ## 📷 Screenshot 
-Home Page (C:\Users\hp\OneDrive\Pictures\Screenshots\Screenshot 2025-02-18 110603.png)
+Home Page ('C:\Users\hp\Desktop\TS\e-commerce-app\src\assets\screenshot of HomePage.png')
 
 ## 📌 Folder Structure
 /ecommerce-app
