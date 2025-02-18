@@ -33,7 +33,7 @@ Follow these steps to run the project locally:
   npm start
 
 ## 📷 Screenshot 
-![Home Page] (C:\Users\hp\OneDrive\Pictures\Screenshots\Screenshot 2025-02-18 110603.png)
+Home Page (C:\Users\hp\OneDrive\Pictures\Screenshots\Screenshot 2025-02-18 110603.png)
 
 ## 📌 Folder Structure
 /ecommerce-app
@@ -41,14 +41,23 @@ Follow these steps to run the project locally:
 ├── public
 
 ├── src
+
 │   ├── components  # Reusable components
+
 │   ├── pages       # Pages like Home, Cart, Product Details
+
 │   ├── store       # Redux store setup
+
 │   ├── styles      # Global styles
+
 │   ├── App.tsx     # Main App component
+
 │   ├── main.tsx    # Entry point
+
 ├── .gitignore
+
 ├── package.json
+
 ├── README.md
 
 ## 💡 Future Enhancements
