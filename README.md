@@ -1,4 +1,4 @@
-#E-Commerce-App
+# E-Commerce-App
 
 Welcome to the **E-Commerce App**! This is a simple and responsive e-commerce web application built with modern frontend technologies.
 
@@ -37,7 +37,9 @@ Follow these steps to run the project locally:
 
 ## 📌 Folder Structure
 /ecommerce-app
+
 ├── public
+
 ├── src
 │   ├── components  # Reusable components
 │   ├── pages       # Pages like Home, Cart, Product Details
