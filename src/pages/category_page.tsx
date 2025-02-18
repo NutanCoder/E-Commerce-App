@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import fetchCategory from "../services/category_api";
 import CategoryCard from "../components/category_card";
-import CategoryLoadingCard from "../components/category_loading_card";
 
 function CategoryPage() {
   const [categories, setCategories] = useState([]);
@@ -18,11 +17,7 @@ function CategoryPage() {
   if (!categories) {
     return (
       <div className="container mx-auto">
-        <div className="grid md:grid-cols-2 gap-4">
-          {[1, 2, 3, 4].map((e) => {
-            return <CategoryLoadingCard key={e} />;
-          })}
-        </div>
+        <h1>Loading Category....!!</h1>
       </div>
     );
   } else {
