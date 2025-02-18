@@ -1,1 +1,23 @@
 @import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+body {
+  @apply bg-teal-50;
+}
+.nav-link {
+  @apply hover:bg-teal-900 rounded-xl px-3 py-2 text-white cursor-pointer;
+}
+
+.form-label {
+  @apply block text-sm mb-2;
+}
+
+.form-input {
+  @apply w-full border-b-2 border-amber-600 focus:border-amber-900 focus:outline-none py-2;
+}
+
+.form-button {
+  @apply w-full bg-amber-700 hover:bg-amber-900 text-white rounded-sm p-2 cursor-pointer mt-1;
+}
