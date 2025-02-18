@@ -43,18 +43,12 @@ Home Page ('C:\Users\hp\Desktop\TS\e-commerce-app\src\assets\screenshot of HomeP
 ├── public
 
 ├── src
-
-│   ├── components  # Reusable components
-
-│   ├── pages       # Pages like Home, Cart, Product Details
-
-│   ├── store       # Redux store setup
-
-│   ├── styles      # Global styles
-
-│   ├── App.tsx     # Main App component
-
-│   ├── main.tsx    # Entry point
+│   ├── components   # Reusable components
+│   ├── pages        # Pages like Home, Cart, Product Details
+│   ├── store        # Redux store setup
+│   ├── styles       # Global styles
+│   ├── App.tsx      # Main App component
+│   ├── main.tsx     # Entry point
 
 ├── .gitignore
 
